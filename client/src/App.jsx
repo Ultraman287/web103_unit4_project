@@ -1,41 +1,39 @@
-import React from 'react'
-import { useRoutes } from 'react-router-dom'
-import Navigation from './components/Navigation'
-import ViewCars from './pages/ViewCars'
-import EditCar from './pages/EditCar'
-import CreateCar from './pages/CreateCar'
-import CarDetails from './pages/CarDetails'
-import './App.css'
+import React from "react";
+import { useRoutes } from "react-router-dom";
+import Navigation from "./components/Navigation";
+import ViewOrders from "./pages/ViewOrders";
+import EditOrder from "./pages/EditOrder";
+import CreateOrder from "./pages/CreateOrder";
+import OrderDetails from "./pages/OrderDetails";
+import "./App.css";
 
 const App = () => {
   let element = useRoutes([
     {
-      path: '/',
-      element: <CreateCar title='BOLT BUCKET | Customize' />
+      path: "/",
+      element: <CreateOrder title="BOLT BUCKET ORDERING | Customize" />,
     },
     {
-      path:'/customcars',
-      element: <ViewCars title='BOLT BUCKET | Custom Cars' />
+      path: "/customorders",
+      element: <ViewOrders title="BOLT BUCKET ORDERING | Custom Orders" />,
     },
     {
-      path: '/customcars/:id',
-      element: <CarDetails title='BOLT BUCKET | View' />
+      path: "/customorders/:id",
+      element: <OrderDetails title="BOLT BUCKET ORDERING | View" />,
     },
     {
-      path: '/edit/:id',
-      element: <EditCar title='BOLT BUCKET | Edit' />
-    }
-  ])
+      path: "/edit/:id",
+      element: <EditOrder title="BOLT BUCKET ORDERING | Edit" />,
+    },
+  ]);
 
   return (
-    <div className='app'>
-
+    <div className="app">
       <Navigation />
 
-      { element }
-
+      {element}
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

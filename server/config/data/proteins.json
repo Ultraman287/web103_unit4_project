@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Beef",
+    "price": 4.99,
+    "description": "Tender and flavorful beef slices."
+  },
+  {
+    "name": "Chicken",
+    "price": 3.99,
+    "description": "Juicy and succulent chicken pieces."
+  },
+  {
+    "name": "Pork",
+    "price": 4.49,
+    "description": "Savory and well-seasoned pork options."
+  },
+  {
+    "name": "Shrimp",
+    "price": 5.99,
+    "description": "Fresh and delicious shrimp selections."
+  },
+  {
+    "name": "Tofu",
+    "price": 2.99,
+    "description": "Protein-rich tofu choices for vegetarians."
+  }
+]

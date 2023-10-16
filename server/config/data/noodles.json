@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Spaghetti",
+    "price": 2.99,
+    "description": "Classic Italian pasta with tomato sauce and Parmesan cheese."
+  },
+  {
+    "name": "Ramen",
+    "price": 1.99,
+    "description": "Japanese noodle soup with a savory broth and various toppings."
+  },
+  {
+    "name": "Fettuccine Alfredo",
+    "price": 3.49,
+    "description": "Creamy Italian pasta with butter and Parmesan cheese."
+  },
+  {
+    "name": "Udon",
+    "price": 2.79,
+    "description": "Thick Japanese wheat noodles served in a hot broth."
+  },
+  {
+    "name": "Pad Thai",
+    "price": 4.25,
+    "description": "Thai stir-fried noodles with shrimp, tofu, and peanuts."
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Parmesan Cheese",
+    "price": 0.99,
+    "description": "Grated Parmesan cheese to enhance flavor."
+  },
+  {
+    "name": "Garlic Bread",
+    "price": 1.49,
+    "description": "Toasty garlic bread slices, perfect for dipping."
+  },
+  {
+    "name": "Mixed Vegetables",
+    "price": 1.29,
+    "description": "A mix of fresh, colorful vegetables for added nutrients."
+  },
+  {
+    "name": "Soy Sauce",
+    "price": 0.49,
+    "description": "Savory soy sauce to season your noodles."
+  },
+  {
+    "name": "Chili Flakes",
+    "price": 0.79,
+    "description": "Spicy chili flakes for some heat."
+  }
+]
