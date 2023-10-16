@@ -15,9 +15,9 @@ The following **required** functionality is completed:
   - [x] **NOTE: Your GIF must include a view of your Railway database that shows the contents of the table used by your app**
 - [x] **The web app uses React to display data from the API**
 - [x] **Users can view a list of options they can select for different aspects of a `CustomOrder`**
-- [ ] **On selecting each option, the displayed visual icon for the `CustomOrder` updates to match the option the user chose**
+- [x] **On selecting each option, the displayed visual icon for the `CustomOrder` updates to match the option the user chose**
 - [x] **The user can submit their choices to save the order to the list of created `CustomOrder`**
-- [ ] **If a user submits a feature combo that is impossible, they should receive an appropriate error message and the item should not be saved to the database**
+- [x] **If a user submits a feature combo that is impossible, they should receive an appropriate error message and the item should not be saved to the database**
 - [x] **The app displays the total price of all features**
 - [x] **Users can view a list of all submitted `CustomOrder`**
 - [x] **Users can edit or delete a submitted `CustomOrder` from the list view of submitted `CustomOrder`**
